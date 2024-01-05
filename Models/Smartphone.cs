@@ -34,13 +34,14 @@ namespace DesafioPOO.Models
         public void AlterarNumero()
         {
             Console.WriteLine($"Seu novo número é {Numero}");
+            
         }
         public void ExibirDados()
 
         {
             Console.WriteLine($"O seu celular tem modelo {Modelo}, IMEI {IMEI}, memória de {Memoria} GB e número {Numero}");
         }
-        
+
         public abstract void InstalarAplicativo(string nomeApp);
     }
 }
