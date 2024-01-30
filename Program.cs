@@ -12,14 +12,13 @@ nokia.Ligar();
 nokia.ReceberLigacao();
 nokia.InstalarAplicativo("Trail Biker");
 nokia.Numero = "991299999";
-nokia.AlterarNumero();
 nokia.ExibirDados();
 
 Console.WriteLine("\n");
 
 Console.WriteLine("Smartphone iPhone:");
 Smartphone iphone = new Iphone (numero: "981899999", modelo: "5", imei: "456789123", memoria: 16);
-nokia.ExibirDados();
+iphone.ExibirDados();
 iphone.Ligar();
 iphone.ReceberLigacao();
 iphone.InstalarAplicativo("Mario Kart Tour");

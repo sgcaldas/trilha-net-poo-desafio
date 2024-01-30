@@ -31,11 +31,6 @@ namespace DesafioPOO.Models
             Console.WriteLine("Recebendo ligação...♫♪");
         }
 
-        public void AlterarNumero()
-        {
-            Console.WriteLine($"Seu novo número é {Numero}");
-            
-        }
         public void ExibirDados()
 
         {
